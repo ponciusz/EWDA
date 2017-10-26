@@ -1,0 +1,58 @@
+/*
+Mixin for ACF colored pagebuilder
+elements (flexible content field)
+--- $name  = name of flex content field
+--- $color = color? :)
+ */
+@mixin acfsection($name, $color) {
+    [data-name="#{$name}"] {
+        background-color: lighten($color, 20%);
+        
+        .ui-sortable {
+            .acf-row-handle {
+                border-bottom: 3px solid lighten($color, 20%);
+                border-top: 3px solid lighten($color, 20%);
+            }
+        }
+        
+    }
+    [data-layout="#{$name}"] {
+        border-left: 6px solid $color !important;
+        
+        .acf-row-handle.order {
+            background-color: $color;
+            border-bottom: 5px solid darken($color, 20%);
+            color: black;
+        }
+        
+        > .acf-fc-layout-handle {
+            background-color: $color;
+        }
+        
+        @content;
+        
+    }
+}
+
+$acf-color1: #ff8383;
+$acf-color2: #f7d4a8;
+$acf-color3: #77ce77;
+$acf-color4: #e0bfff;
+$acf-color5: #cef7a8;
+$acf-color6: #f7d4a8;
+$acf-color7: #b4fdce;
+$acf-color8: #fdb4e0;
+$acf-color9: #fdfdb4;
+$acf-color10: #b4dffd;
+$acf-color11: #d8b3b3;
+$acf-color12: #ffc357;
+$acf-color13: #bac9dc;
+$acf-color14: #d5db9f;
+$acf-options: #ffe1e1;
+
+/**
+ * Use ACF field name as 1st arg and color for second
+ *
+ */
+
+@include acfsection(section_name, $acf-color1);
