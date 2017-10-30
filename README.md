@@ -1,4 +1,5 @@
-# EWDA
+![ScreenShot](https://raw.githubusercontent.com/ponciusz/EWDA/master/screenshot.png)
 
-![Screenshot](http://url/to/img.png)
-![Alt Text](https://raw.github.com/{USERNAME}/{REPOSITORY}/{BRANCH}/{PATH})
+## Effective Wordpress Development Approach
+
+Repository for Article
