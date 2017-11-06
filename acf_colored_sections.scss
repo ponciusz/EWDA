@@ -34,6 +34,7 @@ elements (flexible content field)
     }
 }
 
+// Define colors
 $acf-color1: #ff8383;
 $acf-color2: #f7d4a8;
 $acf-color3: #77ce77;
@@ -52,7 +53,10 @@ $acf-options: #ffe1e1;
 
 /**
  * Use ACF field name as 1st arg and color for second
- *
+ * Use this in admin Stylesheet
  */
 
-@include acfsection(section_name, $acf-color1);
+@include acfsection(slider, $acf-color4);
+@include acfsection(full_image, $acf-color5);
+@include acfsection(generic_content, $acf-color6);
+@include acfsection(cta, $acf-color1);

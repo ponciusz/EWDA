@@ -1,0 +1,136 @@
+{
+    "key": "group_59f790c5bbe42",
+    "title": "Page Builder",
+    "fields": [
+        {
+            "key": "field_59f790cd26d88",
+            "label": "Page Builder",
+            "name": "page_builder",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "button_label": "Add Section",
+            "min": "",
+            "max": "",
+            "layouts": [
+                {
+                    "key": "59f790dc07bac",
+                    "name": "slider",
+                    "label": "Slider",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_59f790e326d89",
+                            "label": "Slider",
+                            "name": "slider",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_59f78d279bc77"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "59f790f126d8a",
+                    "name": "generic_content",
+                    "label": "Generic Content",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_59f790fc26d8b",
+                            "label": "Generic Content",
+                            "name": "generic_content",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_59f78dfdd3f3d"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5a00bc1a3e2f8",
+                    "name": "full_image",
+                    "label": "Full Image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5a00bc253e2f9",
+                            "label": "Full Image",
+                            "name": "full_image",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5a00bb92e7c61"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1509997625
+}
